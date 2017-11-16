@@ -1,4 +1,4 @@
-/*CLASES REUTILIZABLES*/
+﻿/*CLASES REUTILIZABLES*/
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -147,8 +147,6 @@ header {
   position: relative;
   text-align: center;
   color: white;
-  margin: 0px;
-  padding:0px;
 
 
 }
