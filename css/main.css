@@ -21,7 +21,6 @@ body {
 
 img {
   vertical-align: middle;
-  ;
 }
 
 .container {
@@ -60,12 +59,17 @@ img {
 }
 
 a {
+  display: inline-block;
   color: #373B47;
   text-decoration: none;
+  width: 20%;
+
 }
 
 a:hover {
   color: #E95853;
+
+
 }
 
 .text-uppercase {
@@ -73,9 +77,28 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+article article div {
+  display: inline-block;
+  width: 29%;
+  margin: 20px;
+}
+
+article div img {
+  display: block;
+  margin: 0 auto;
+  overflow-y: auto;
+}
+
+footer{
+  color: white;
+  background: #373B47;
+  padding: 1%;
+  text-align: center;
+}
+
 h6, h5 {
-  line-height: 0%;
-  margin: 10%;
+  line-height: 5%;
+  margin: 9%;
 }
 
 h2, h4 {
@@ -83,59 +106,53 @@ h2, h4 {
 }
 
 header {
-  position: fixed;
-  outline: 1px solid yellow;
   background-color: white;
   color: black;
   display: inline-block;
-  width: 100%;
   height: 10%;
+  position: fixed;
+  width: 100%;
 }
 
-.center { /* Elementos 2 y 5 */
-  left: 8%;
-  position: relative;
+.etiquetas-seccion3 {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
 }
 
-.left { /*Elementos 1 y 4*/
-  left: 4%;
-  position: relative;
+.logo {
+  display: inline-block;
+  left: 90%;
+  position: fixed;
+  width: 4%;
 }
 
-.name-botom {/*Contiene los nombres 4,5 y 6*/
-  color: white;
-  left: 31%;
-  position: absolute;/*Para que queden encima de las imagenes y no guarde el lugar*/
-  top:80%;
+.menu {
+  width: 100%;
 }
 
-.name-top {/* Contiene los nombres 1,2 y 3 */
-  color: white;
-  left: 31%;
-  position: absolute;/*Para que queden encima de las imagenes y no guarde el lugar*/
-  top:80%;
-
+.seccion3 {
+  margin: 10%;
 }
-
-.rigth {/*Elementos 3 y 6*/
-  position: relative;
-  left: 12%;
-}
-
 
 .triptico{
-  position: relative;
   display: inline-block;
   margin: 5%;
+  position: relative;
 }
 
 #boton {
   background-color: #2ECC71;
+  color: white;
   display: inline-block;
+  font-size: 12px;
   padding: 10px;
   width: 17%;
-  font-size: 12px;
-  color: white;
+}
+
+#cuerpo_section3{
+  font-size: 25px;
 }
 
 #encabezado_section3 {
@@ -144,26 +161,29 @@ header {
 
 #fondo-seccion2 {
   background: #F17C72;
+  color: white;
   position: relative;
   text-align: center;
-  color: white;
+}
 
-
+#logo {
+width: inherit;
 }
 
 #section1 {
-  position: absolute;
-  top: 10%;
-  left: 20%;
   color: #FFF;
+  left: 20%;
+  position: absolute;
   text-align: center;
+  top: 10%;
 }
-#titulo-principal {
+
+#titulo_principal {
   font-size: 50px ;
   margin-bottom: 0;
 }
-#titulo-secundario {
+
+#titulo_secundario {
   font-size: 15px ;
   margin-bottom: 60px;
-
 }
